@@ -41,3 +41,7 @@ font-weight: 700;
     color: white;
     text-shadow: none;
 }
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+color: #27abad
+}
