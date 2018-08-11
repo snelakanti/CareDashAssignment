@@ -1,0 +1,34 @@
+/* img {
+
+} */
+
+ .logo {
+    height : 200%;
+    width: 80%;
+    margin-top: -12%;
+}
+
+a.navbar-brand{
+   
+    width: 100px;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+.bg { 
+    /* The image used */
+    background-image: url("Medical-HD-Wallpaper-33.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: -5%;
+}
