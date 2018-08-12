@@ -44,16 +44,21 @@ font-weight: 700;
 color: #27abad
 }
 
-/* .form-div {
+.form-div {
+margin-right: 100px;
+    padding: 15px 24px;
+    width: 20%;
+    float: right;
+    box-shadow: 0 4px 8px 0 #333;
+    transition: 0.3s;
+    background: white;
+    border-radius: 5px;
+ } 
 
-    background: blue;
-width: 100%;
-display:inline-block; */
-    /* height:70%;
-    width: 25%; */
-    /* float: right;
-    margin-right: -30%;
- } */
+ .form-div h2 {
+
+    color: #27abad;
+ }
     
  .reason {
      background: #27abad;
@@ -73,3 +78,4 @@ display:inline-block; */
     margin-left: 10px;
   }
 
+  
