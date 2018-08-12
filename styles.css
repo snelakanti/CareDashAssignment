@@ -120,4 +120,6 @@ font-weight: 800;
 .row-foot h3 {
     font-size: 1.5rem; 
 }
-
+.py-3{
+    font-size: 1rem;
+}
