@@ -44,13 +44,15 @@ font-weight: 700;
 color: #27abad
 }
 
-.form {
+.form-div {
 
     background: blue;
+width: 100%;
+display:inline-block;
     /* height:70%;
     width: 25%; */
-    float: right;
-    margin-right: -30%;
+    /* float: right;
+    margin-right: -30%; */
     
 }
 
