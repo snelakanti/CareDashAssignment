@@ -61,15 +61,12 @@ margin-right: 100px;
     color: #27abad;
  }
     
- .reason {
-     background: #27abad;
-     
- }
+
  .reasons .col-lg-4 {
     margin-bottom: 20px;
     margin-top: 5%;
     text-align: center;
-    color:white;
+    color:#27abad;
   }
   .reasons h2 {
     font-weight: normal;
@@ -90,4 +87,22 @@ margin-right: 100px;
 
 #log-in {
    font-size: 90%;
+}
+
+.content {
+    float: left;
+    color:white;
+    margin-top: 7%;
+    
+}
+
+.content h1 {
+    font-weight: 900;
+    text-shadow: 2px 2px #272725;
+    font-size: 6rem;
+}
+
+.content h2 {
+    font-weight: 900;
+    text-shadow: 2px 2px #272725;
 }
