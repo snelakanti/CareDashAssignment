@@ -44,15 +44,32 @@ font-weight: 700;
 color: #27abad
 }
 
-.form-div {
+/* .form-div {
 
     background: blue;
 width: 100%;
-display:inline-block;
+display:inline-block; */
     /* height:70%;
     width: 25%; */
     /* float: right;
-    margin-right: -30%; */
+    margin-right: -30%;
+ } */
     
-}
+ .reason {
+     background: #27abad;
+     
+ }
+ .reasons .col-lg-4 {
+    margin-bottom: 20px;
+    margin-top: 5%;
+    text-align: center;
+    color:white;
+  }
+  .reasons h2 {
+    font-weight: normal;
+  }
+  .reasons .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 
