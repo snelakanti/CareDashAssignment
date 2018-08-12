@@ -1,51 +1,41 @@
-
 body, html {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
-
- .logo {
-    height : 200%;
-    width: 80%;
-    margin-top: -12%;
-}
-
-a.navbar-brand{
-   
-    width: 100px;
-}
-
-
+/* BG IMAGE */
 .bg { 
-    /* The image used */
     background-image: url("assets/Medical-HD-Wallpaper-33.jpg");
-
-    /* Full height */
     height: 100%; 
-
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* LOGO */
+.logo {
+    height : 200%;
+    width: 80%;
+    margin-top: -12%;
+}
+/* NAVBAR */
+a.navbar-brand{
+    width: 100px;
+}
 .navbar-default{
 background: rgba(0,0,0,0.5);
 border: none;
 font-weight: 700; 
 }
-
 .navbar-default .navbar-nav>li>a {
     color: white;
     text-shadow: none;
 }
-
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 color: #27abad
 }
-
+/* FORM */
 .form-div {
-margin-right: 100px;
+    margin-top: 5%;
+    margin-right: 100px;
     padding: 15px 24px;
     width: 25%;
     float: right;
@@ -55,18 +45,40 @@ margin-right: 100px;
     border-radius: 5px;
     text-align: center;
  } 
-
  .form-div h2 {
-
     color: #27abad;
  }
+ #sign-up {
+    background: #b9d157;
+    color: white;
+    text-shadow: none;
+    width: 100%;
+    font-weight: 800;
+}
+#log-in {
+   font-size: 90%;
+}
+/* CONTENT */
+.content {
+    float: left;
+    color:white;
+    margin-top: 7%;
     
-
+}
+.content h1 {
+    font-weight: 900;
+    text-shadow: 2px 2px #272725;
+    font-size: 6rem;
+}
+.content h2 {
+    font-weight: 900;
+    text-shadow: 2px 2px #272725;
+}
+/* REASONS */
  .reasons .col-lg-4 {
     margin-bottom: 20px;
     margin-top: 5%;
-    text-align: center;
-    
+    text-align: center;  
   }
   .reasons h2 {
     font-weight: normal;
@@ -75,39 +87,7 @@ margin-right: 100px;
     margin-right: 10px;
     margin-left: 10px;
   }
-
-  
-#sign-up {
-    background: #b9d157;
-    color: white;
-    text-shadow: none;
-    width: 100%;
-    font-weight: 800;
-}
-
-#log-in {
-   font-size: 90%;
-}
-
-.content {
-    float: left;
-    color:white;
-    margin-top: 7%;
-    
-}
-
-.content h1 {
-    font-weight: 900;
-    text-shadow: 2px 2px #272725;
-    font-size: 6rem;
-}
-
-.content h2 {
-    font-weight: 900;
-    text-shadow: 2px 2px #272725;
-}
-
-.reasons-button {
+  .reasons-button {
     background: #b9d157;
     color: white;
     text-shadow: none;
@@ -115,35 +95,28 @@ margin-right: 100px;
 border:none;
 font-weight: 800;
 }
-
 .reasons-button:hover {
     color: white;
     background: #b9d157;
     border-color:#adadad;
 }
-
+/* FOOTER */
 #bg3{
    background-color: #27abad;
    color: white;
    text-align: center;
    font-size: 3rem; 
 }
-
-
-
 .text-muted {
     color: white;
  font-size: 1.2rem;
 }
-
 #foot3 {
     margin-top: 5%;
 }
-
 .fa {
     color: white;
 }
-
 .row-foot h3 {
     font-size: 1.5rem; 
 }
