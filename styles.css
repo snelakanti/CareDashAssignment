@@ -27,8 +27,6 @@ a.navbar-brand{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    margin-top: -8%;
 }
 
 .navbar-default{
@@ -45,3 +43,14 @@ font-weight: 700;
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 color: #27abad
 }
+
+.form {
+
+    background: blue;
+    /* height:70%;
+    width: 25%; */
+    float: right;
+    margin-right: -30%;
+    
+}
+
